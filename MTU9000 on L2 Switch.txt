@@ -6,3 +6,38 @@ MTU9000 on L2 Switch
 #class type network-qos class-default
 
 #mtu 9216
+
+
+
+ Check status
+ 
+ #show queuing interface ethernet 1/1
+ 
+ 
+ ###Looklike###
+ 
+ 
+Ethernet1/1 queuing information:
+  TX Queuing
+    qos-group  sched-type  oper-bandwidth
+        0       WRR            100
+
+  RX Queuing
+    qos-group 0
+    q-size: 469760, HW MTU: 9216 (9216 configured)
+    drop-type: drop, xon: 0, xoff: 469760
+    Statistics:
+        Pkts received over the port             : 4159758643
+        Ucast pkts sent to the cross-bar        : 4155539502
+        Mcast pkts sent to the cross-bar        : 4144497
+        Ucast pkts received from the cross-bar  : 3207347531
+        Pkts sent to the port                   : 1238753660
+        Pkts discarded on ingress               : 74648
+        Per-priority-pause status               : Rx (Inactive), Tx (Inactive)
+
+  Total Multicast crossbar statistics:
+    Mcast pkts received from the cross-bar      : 2326373421
+    
+    
+    
+  
