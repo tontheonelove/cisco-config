@@ -16,4 +16,13 @@
 
 #ip route x.x.x.x 255.255.255.248 x.x.x.x
 
+# MTU9000  on L2 Switch
+
+#policy-map type network-qos jumbo
+
+#class type network-qos class-default
+
+#mtu 9216
+
+
 
