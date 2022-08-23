@@ -1,0 +1,8 @@
+MTU9000 on L2 Switch
+
+
+#policy-map type network-qos jumbo
+
+#class type network-qos class-default
+
+#mtu 9216
