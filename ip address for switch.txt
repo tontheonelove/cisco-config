@@ -1,0 +1,9 @@
+#interface Vlan1
+#no shutdown
+#no ip redirects
+#ip address 10.200.1.230/24
+#ip address 10.1.1.10/24 secondary
+#ip address 10.100.1.252/24 secondary
+
+
+
