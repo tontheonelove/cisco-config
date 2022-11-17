@@ -13,5 +13,10 @@
 #0.0.0.0/0 192.168.0.254
 #commit
 
+!!!! Set Clock & timezone
+#clock timezone GMT-7
+
+
+
 
 
