@@ -1,1 +1,17 @@
+!!!! Config Mgmt 0 addresss
+
+#interface mgmtEth 0/RP0/CPU0/0
+#ipv4 address 192.168.0.112/24
+#commit
+
+!!!! enable telnet 
+#telnet ipv4 server max-servers 10   (10 is session)
+#commit
+
+!!!! config default gateway 
+#router static address-family ipv4 unicast
+#0.0.0.0/0 192.168.0.254
+#commit
+
+
 
