@@ -1,0 +1,27 @@
+#feature netflow   (enables netflow feature)
+
+#flow timeout active 60
+#flow timeout inactive 15
+
+
+#flow exporter (your export name)
+#destination {netflow serverip Address}
+#transport udp 9996  (port of netflow Server)
+#source {Loopback interface or any L3 interface} 
+#version 9 (version 5 or 9)
+#template data timeout 60
+#option exporter-stats timeout 60
+#option sampler-table timeout 60
+
+
+#sampler (your sampler name)
+#mode 1 out-of 100
+
+
+#flow monitor (your monitor name)
+#record netflow-original
+#exporter (your exportor name)
+
+****Config your interface for ned send flow every interface****
+#interface ethernet 1/1
+#ip flow monitor (your monitor name) input sampler (your sampler name)
