@@ -1,1 +1,33 @@
 
+#router bgp xxxxx 
+
+#neighbor xxx.xxx.xxx.xxx remote-as xxxxx
+
+#address-family ipv4 unicast
+
+#route-map DOM-IN in
+
+#route-map DOM-OUT out
+
+#send-community both
+
+======================
+
+#route-map DOM-OUT
+#ip prefix-list DOM-OUT seq 10 permit xx.xx.xx.xx/xx
+#route-map DOM-OUT
+#ip prefix-list DOM-OUT seq 11 permit xx.xx.xx.xx/xx
+#route-map DOM-OUT
+#ip prefix-list DOM-OUT seq 12 permit xx.xx.xx.xx/xx
+#route-map DOM-OUT
+#ip prefix-list DOM-OUT seq 13 permit xx.xx.xx.xx/xx
+
+=======================
+
+#route-map DOM-OUT
+
+#match ip address prefix-list DOM-OUT
+
+#route-map DOM-IN
+
+#set local-preference 200
