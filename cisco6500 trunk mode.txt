@@ -1,0 +1,9 @@
+interface GigabitEthernet6/5
+ description XXXXXX
+ switchport
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+ no ip address
+ no shutdown
+ 
+ 
