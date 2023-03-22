@@ -1,0 +1,9 @@
+# clear bgp connection  session
+
+clear ip bgp x.x.x.x all
+
+# clear apr ccache
+clear arp-cache interface gigabitEthernet 1/1
+
+# clear apr session
+#clear arp interface gigabitEthernet 1/1
