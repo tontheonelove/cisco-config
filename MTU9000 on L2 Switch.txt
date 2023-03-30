@@ -5,7 +5,7 @@ MTU9000 on L2 Switch
 #class type network-qos class-default
 #mtu 9216
 #system qos
-#service-policy type network-qos JUMBO
+#service-policy type network-qos jumbo
 
 
 
