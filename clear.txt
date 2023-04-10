@@ -7,3 +7,6 @@ clear arp-cache interface gigabitEthernet 1/1
 
 # clear apr session
 #clear arp interface gigabitEthernet 1/1
+
+# clear arp vlan
+#clear ip arp vlan XXX
