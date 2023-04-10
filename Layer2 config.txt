@@ -1,0 +1,30 @@
+Router 1 
+
+vlan XXX
+
+inter vlan xxx
+no shutdown 
+mtu 9216 (if need)
+ip address XX.XX.XX.XX
+clear ip arp vlan XXX
+
+=============================================================
+
+
+Router 2 
+
+vlan XXX
+
+=============================================================
+
+Router 3
+
+vlan XXX
+
+inter vlan xxx
+no shutdown 
+mtu 9216 (if need)
+ip address XX.XX.XX.XX
+clear ip arp vlan XXX
+
+=============================================================
