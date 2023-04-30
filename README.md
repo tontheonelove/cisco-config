@@ -3,6 +3,12 @@
 
 # Start simple config
 
+| Command | 	Purpose |
+| --- | --- |
+| enable | Logs you into enable mode, which is also known as user exec mode or privileged mode |
+| configure terminal | Logs you into configuration mode |
+
+
 # Interface 
 
 ```
