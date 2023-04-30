@@ -5,7 +5,7 @@
 
 | Command | 	Purpose |
 | --- | --- |
-| # enable | Logs you into enable mode, which is also known as user exec mode or privileged mode |
+| enable | Logs you into enable mode, which is also known as user exec mode or privileged mode |
 | configure terminal | Logs you into configuration mode |
 | interface fastethernet/number | Enters interface configuration mode for the specified fast ethernet interface |
 | reload | An exec mode command that reboots a Cisco switch or router |
