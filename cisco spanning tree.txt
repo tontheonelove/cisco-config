@@ -1,1 +1,11 @@
+Create root
 #spanning tree vlan 1-4096 root primary
+
+
+Restarting the Protocol for new detect
+
+#clear spanning-tree detected-protocol [interface interface [interface-num | port-channel]]
+
+Check status STP
+#show spanning-tree brief
+
