@@ -18,6 +18,12 @@
 |ip address ip-address mask|Assigns an IP address and a subnet mask|
 |shutdown|Used in interface configuration mode. “Shutdown” shuts down the interface, while “no shutdown” brings up the interface.|
 |no shutdown|Used in interface configuration mode. “Shutdown” shuts down the interface, while “no shutdown” brings up the interface.|
+|ip default-gateway ip_address|Sets the default gateway on a Cisco device|
+|show running-config|An enable mode command that displays the current configuration|
+|description name-string|A config interface command to describe or name an interface|
+|show running-config interface interface slot/number|An enable mode command to display the running configuration for a specific interface|
+|show ip interface [type number]|	Displays the usability status of interfaces that are configured for IP|
+|ip name-server serverip-1 serverip-2|A configure mode command that sets the IP addresses of DNS servers|
 
 
 
