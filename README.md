@@ -30,7 +30,7 @@
 | --- | --- |
 | ping {hostname// system-address} [source source-address] | Used in enable mode to diagnose basic network connectivity |
 |speed {10 // 100 // 1000 // auto}|An interface mode command that manually sets the speed to the specified value or negotiates it automatically|
-|duplex {auto // full | half}|An interface mode command that manually sets duplex to half, full or auto|
+|duplex {auto // full // half}|An interface mode command that manually sets duplex to half, full or auto|
 |cdp run // no cdp run|A configuration mode command that enables or disables Cisco Discovery Protocol (CDP) for the device|
 |show mac address-table|Displays the MAC address table|
 |show cdp|Shows whether CDP is enabled globally|
