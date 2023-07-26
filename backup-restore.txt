@@ -1,0 +1,37 @@
+### CISCO 6500 BACKUP RESTORE ###
+
+1. Configure the FTP username and password.
+
+CE_2#configure terminal
+CE_2(config)#ip ftp username cisco
+CE_2(config)#ip ftp password cisco123
+CE_2(config)#end
+CE_2#
+
+
+2. Copy the configuration to the FTP server.
+
+CE_2#copy running-config ftp:
+Address or name of remote host []? 10.66.64.10
+Destination filename [ce_2-confg]? backup_cfg_for_router
+Writing backup_cfg_for_router !
+1030 bytes copied in 3.341 secs (308 bytes/sec)
+CE_2#
+
+
+3. Copy the configuration file from the FTP server to a router in privileged (enable) mode which has a basic configuration.
+
+Router#copy ftp: running-config
+Address or name of remote host [10.66.64.10]? 
+Source filename [backup_cfg_for_router]? 
+Destination filename [running-config]? 
+Accessing ftp://10.66.64.10/backup_cfg_for_router...
+Loading backup_cfg_for_router !
+[OK - 1030/4096 bytes]
+1030 bytes copied in 13.213 secs (78 bytes/sec)
+CE_2#
+
+
+
+
+
