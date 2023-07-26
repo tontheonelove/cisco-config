@@ -32,6 +32,23 @@ Loading backup_cfg_for_router !
 CE_2#
 
 
+### Nexus 7K ####
+
+#copy running-config ftp:
+Enter destination filename: [Nexus-7018-running-config]  (Set your name or enter for default)
+Enter vrf (If no input, current vrf 'default' is considered):   (Set your VRF or enter for default)
+#Enter hostname for the ftp server: 0.0.0.0/0   (FTP SERVER)
+#Enter username: username
+#Password: ******
+
+***** Transfer of file Completed Successfully *****
+Copy complete, now saving to disk (please wait)...
+
+
+
+
+
+
 
 
 
