@@ -1,7 +1,8 @@
 # cisco-config all update !!
 
 
-# Start simple config
+
+- [Start simple config]()
 
 | Command | 	Purpose |
 | --- | --- |
