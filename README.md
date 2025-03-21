@@ -13,3 +13,4 @@
 - [Backup & Restore Config](backup-restore.txt)
 - [Spanning Tree](cisco%20spanning%20tree.txt)
 - [Enable SNMP V2](enable%20snmpv2%20server.txt)
+- [Enables Netflow to Netwflow Server](nexus7k%20netflow%20conf.txt)
