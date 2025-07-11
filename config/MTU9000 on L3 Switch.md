@@ -1,7 +1,7 @@
 # MTU9000 on L3 Switch
 
 
-## for switch port access
+## for switch port access  (config per port)
 
 ```
 switchport
@@ -12,7 +12,7 @@ mtu 9216
 ```
 
 
-## for switch port trunk 
+## for switch port trunk  (config per port)
 
 ```
 switchport
